@@ -23,7 +23,7 @@ Input: root = [5,4,8,11,null,13,4,7,2,null,null,5,1], targetSum = 22
 Output: 3
 ==========================================================================================================
 
-Approch:
+Approach:
 We have to visit each node and it's children and capture the sum in an Array(sumHolder). But since sum is for the path and not needed to be a node and leaf node, we have to also capture the total from the sub node.
 This is do able while applying DFS in pre-order manner. Once we update the sumHoder we can now check each element with targetSum. If condition is true then we will increase the count for the path match.
 */

@@ -27,7 +27,7 @@ The number of nodes in the tree is in the range [0, 5000].
 -1000 <= targetSum <= 1000
 =============================================================================================================
 
-Approch:
+Approach:
 Since we are going from roo to leaf node, DFS will be efficient here. Also we have a targetSum to match we need sumHolder to hold the sum from each recursion.
 We will use DFS in pre-order manner.
 */

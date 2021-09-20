@@ -21,7 +21,7 @@ Input: root = [1]
 Output: [1]
 ==========================================================================
 
-Approch: This is a tree traversal and we have to display node values inorder. We will use recursive function.
+Approach: This is a tree traversal and we have to display node values inorder. We will use recursive function.
 */
 
 /**
